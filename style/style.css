@@ -1,0 +1,114 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bg-head1 {
+  width: 100%;
+  background-color: #f1c40f;
+}
+.bg-nav {
+  width: 100%;
+  background-color: #2d3436;
+}
+.bg-head1 p {
+  font-size: small;
+  font-weight: 600;
+}
+
+a {
+  color: black;
+}
+.li {
+  padding: 10px;
+}
+.carousel-item img {
+  height: 500px;
+  filter: brightness(35%);
+}
+.pad {
+  padding-top: 60px;
+}
+.carousel-caption {
+  bottom: 150px;
+}
+.carousel-caption h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.carousel-caption h1 {
+  font-family: "Shippori Antique B1", sans-serif;
+}
+.carousel-caption p {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.color-font {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* <!-- WELCOME TO OUR COMPANY --> */
+
+.bg-our-company {
+  background-color: #fff;
+  padding: 5%;
+}
+
+/*     <!-- WHY CHOOSE US --> */
+.bg-choose-us {
+  padding: 5%;
+  background-color: #f0ffff;
+}
+
+/*  <!-- OUR SERVICE --> */
+.bg-our-ser {
+  padding: 5%;
+  background-color: #fff;
+}
+
+/* <!-- QUESTION SEQ --> */
+.bg-ques {
+  padding: 5%;
+  background-color: #f1c40f;
+}
+.bg-ques h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.bg-ques h3 {
+  font-family: "Shippori Antique B1", sans-serif;
+}
+
+/* <!-- FOOTER --> */
+.bg-footer {
+  background-size: 100%;
+  padding: 10%;
+  background: rgba(0, 0, 0, 0.8) url(../images/6.png);
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  color: #fff;
+}
+.bg-icon-footer{
+  background-color: #f1c40f;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #2d3436;
+}
+.font-footer-h{
+  font-family: "Montserrat", sans-serif;
+  color: #f1c40f;
+}
+
+/* FOOTER */
+.foot{
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  color: white;
+  background-color: #2d3436;
+}
