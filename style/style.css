@@ -9,6 +9,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.overflow_content{
+  overflow: hidden;
+}
 .bg-head1 {
   width: 100%;
   background-color: #f1c40f;
